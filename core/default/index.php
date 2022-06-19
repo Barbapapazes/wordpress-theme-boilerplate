@@ -101,7 +101,7 @@ class BoilerplateDefault
   }
 
   /**
-   * Remove comment support
+   * Remove comment support form post and page
    */
   public static function remove_comment()
   {
@@ -110,7 +110,7 @@ class BoilerplateDefault
   }
 
   /**
-   * Remove comments
+   * Remove comments from admin menu
    */
   public static function admin_menu_remove_comments()
   {

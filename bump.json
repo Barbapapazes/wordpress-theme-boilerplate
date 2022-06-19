@@ -1,0 +1,13 @@
+{
+  "files": {
+    "style.css": ["Version: (\\d.\\d.\\d*)", "Version: [version]", "i"],
+    "header.php": ["<!-- v(\\d.\\d.\\d*) -->", "<!-- v[version] -->", "i"]
+  },
+  "commit": {
+    "enabled": true,
+    "message": "Release v[version]"
+  },
+  "tag": {
+    "enabled": false
+  }
+}

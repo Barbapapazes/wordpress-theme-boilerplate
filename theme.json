@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "settings": {
+    "layout": {
+      "contentSize": "960px",
+      "wideSize": "1280px"
+    },
+    "color": {
+      "palette": [
+        {
+          "name": "Dark",
+          "slug": "dark",
+          "color": "#1F2937"
+        },
+        {
+          "name": "Light",
+          "slug": "light",
+          "color": "#F9FAFB"
+        }
+      ]
+    }
+  }
+}

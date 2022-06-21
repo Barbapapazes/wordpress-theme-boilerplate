@@ -10,6 +10,7 @@
   "text_domain": "boilerplate",
   "license": "MIT",
   "scripts": {
+    "cypress:open": "cypress open",
     "production:css-app": "cross-env NODE_ENV=production tailwindcss -i ./resources/css/app.css -o ./css/app.css --postcss --minify",
     "production:css-editor": "cross-env NODE_ENV=production tailwindcss -i ./resources/css/editor-style.css -o ./css/editor-style.css --postcss --minify",
     "production:js": "cross-env NODE_ENV=production ./node_modules/.bin/esbuild ./resources/js/app.js --bundle --outfile=./js/app.js --minify",
@@ -42,6 +43,7 @@
     "browser-sync": "^2.26.14",
     "concurrently": "^6.2.1",
     "cross-env": "^6.0.3",
+    "cypress": "^10.1.0",
     "esbuild": "^0.12.24",
     "postcss": "^8.4.14",
     "postcss-import": "^14.0.0",

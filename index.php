@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 
-the index
+hello
 
 <?php
 get_footer();

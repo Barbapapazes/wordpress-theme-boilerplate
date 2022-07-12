@@ -96,7 +96,7 @@ class BoilerplateDefault
     $css_path = self::get_asset_path('css/app.css');
     $js_path = self::get_asset_path('js/app.js');
 
-    wp_enqueue_style('app-style', $css_path, [], $version, true);
+    wp_enqueue_style('app-style', $css_path, [], $version);
     wp_enqueue_script('app-script', $js_path, [], $version, true);
   }
 
